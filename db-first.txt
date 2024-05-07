@@ -1,0 +1,20 @@
+cars
+
+id - INT - PRIMARY KEY - NOTNULL -AUTO_INCREMENT - UNIQUE
+marca - VARCHAR(50) - NOTNULL
+carrozzeria - VARCHAR(50) - NULL
+numero di telaio - INT - NOTNULL - UNIQUE
+carburante - VARCHAR(50) - NOTNULL
+anno - YEAR - NOTNULL
+chilometraggio - MEDIUMINT - NOTNULL
+potenza - SMALLINT - NULL
+cambio - VARCHAR(50) - NOTNULL
+numero di porte - TINYINT - NULL
+numero di posti - TINYINT - NULL
+condizioni del veicolo - VARCHAR(50) - NOTNULL
+colore carrozzeria - VARCHAR(50) - NULL
+precedenti proprietari - TINYINT - NULL
+classe emissioni - VARCHAR(50) - NULL
+prezzo - MEDIUMINT - NOTNULL
+note - VARCHAR(255) - NULL
+
